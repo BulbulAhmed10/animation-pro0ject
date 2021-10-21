@@ -1,0 +1,308 @@
+.box1{
+    height: 130px;
+    width: 130px;
+    background-color: blue;
+    animation-name: BulBul;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+.box2{
+    height: 130px;
+    width: 130px;
+    background-color: blue;
+    animation-name: BulBul1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+    
+}
+
+
+
+@keyframes BulBul{
+    from{
+        background: red;
+        left: 0;
+    
+    }
+    to{
+        background: green;
+        left: 300px;
+    }
+}
+
+@keyframes BulBul1{
+    from{
+        background: tomato;
+        bottom: 0;
+    
+    }
+    to{
+        background:yellow;
+        bottom: 300px;
+    }
+}
+
+.div1{
+    background: green;
+    height: 150px;
+    width: 1200px;
+    margin-left: 140px;
+    margin-top: 5px;
+    animation-name: div1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes div1{
+    0%   {background-color: red;}
+    25%  {background-color:#DA78A7;}
+    50%  {background-color: blue;}
+    100% {background-color:#EF0BFD;}
+  }
+
+  
+.div2{
+    background:#FF8846 ;
+    height: 150px;
+    width: 1200px;
+    margin-left: 140px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    animation-name: div2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes div2{
+    0%  {
+        background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 50%, #ffffff 100%);
+        ;}
+    25%  {
+        background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+        ;}
+    50%  {
+        background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+        ;}
+    100% {
+        background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+        ;}
+}
+.box3{
+    height: 130px;
+    width: 130px;
+    background-color: blue;
+    animation-name: BulBul2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    animation-direction: alternate;
+    
+    
+}   
+    @keyframes BulBul2{
+        from{
+            background: #CE0D81;
+               left: 0;
+        
+        }
+        to{
+            background:#F48C17;
+            left: 300px;
+        }
+    }
+    .box4{
+        height: 130px;
+        width: 130px;
+        background-color: blue;
+        animation-name: BulBul3;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        position: absolute;
+        animation-direction: alternate;
+        
+        
+    }   
+        @keyframes BulBul3{
+            from{
+                background: #85e912;
+                bottom: 300px;
+            
+            
+            }
+            to{
+                background:#0f4a2136;
+                bottom: 0;
+            }
+        }
+        .box5{
+            height: 130px;
+            width: 130px;
+            background-color: blue;
+            animation-name: BulBul4;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            position: absolute;
+            animation-direction: alternate;
+            margin-right: 30px;
+            
+            
+            
+            
+        }   
+            @keyframes BulBul4{
+                from{
+                    background:#33A67C ;
+                    bottom:300px;
+                    right: 0;
+                
+                
+                }
+                to{
+                    background:#c513e9;
+                    bottom: 0;
+                    right: 0;
+                }
+            }
+            .box6{
+                height: 130px;
+                width: 130px;
+                background-color: blue;
+                animation-name: BulBul5;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                position: absolute;
+                animation-direction: alternate;
+                margin-top: 10px;
+                
+                
+            }   
+                @keyframes BulBul5{
+                    from{
+                        background: #CE0D81;
+                       top: 0;
+                       right: 0;
+                    
+                    }
+                    to{
+                        background:#F48C17;
+                        right: 300px;
+                        top: 0;
+                    }
+                }
+                .box7{
+                    height: 130px;
+                    width: 130px;
+                    background-color: blue;
+                    animation-name: BulBul6;
+                    animation-duration: 2s;
+                    animation-iteration-count: infinite;
+                    position: absolute;
+                    animation-direction: alternate;
+                    margin-right: 20px;
+                    
+                }   
+                    @keyframes BulBul6{
+                        from{
+                            background:#9DB092 ;
+                           top: 300px;
+                           right: 10px;
+                        
+                        }
+                        to{
+                            background:#829B09;
+                            right: 10px;
+                            top: 0;
+                        }
+                    }
+                    .box8{
+                        height: 130px;
+                        width: 130px;
+                        background-color: blue;
+                        animation-name: BulBul7;
+                        animation-duration: 2s;
+                        animation-iteration-count: infinite;
+                        position: absolute;
+                        animation-direction: alternate;
+                        margin-right: 20px;
+                        
+                    }   
+                        @keyframes BulBul7{
+                            from{
+                                background: #CE0D81;
+                               top: 320px;
+                               right: 10px;
+                            
+                            }
+                            to{
+                                background:#F48C17;
+                                right: 10px;
+                                top: 0;
+                            }
+                        }
+                        .box8{
+                            height: 130px;
+                            width: 130px;
+                            background-color: blue;
+                            animation-name: BulBul7;
+                            animation-duration: 2s;
+                            animation-iteration-count: infinite;
+                            position: absolute;
+                            animation-direction: alternate;
+                            margin-right: 20px;
+                            
+                        }   
+                            @keyframes BulBul7{
+                                from{
+                                    background:#53573d;
+                                   top: 320px;
+                                   right: 10px;
+                                
+                                }
+                                to{
+                                    background:#4535d6;
+                                    right: 10px;
+                                    top: 0;
+                                }
+                            }
+                            .box9{
+                                height: 130px;
+                                width: 130px;
+                                background-color: blue;
+                                animation-name: BulBul8;
+                                animation-duration: 2s;
+                                animation-iteration-count: infinite;
+                                position: absolute;
+                                animation-direction: alternate;
+                                
+                                
+                                
+                            }   
+                                @keyframes BulBul8{
+                                    from{
+                                        background:#DCC496;
+                                       right: 0;
+                                       
+
+                                    }
+                                    to{
+                                        
+                                        background:#FAF724;
+                                        right: 300px;
+                                    
+
+                                    }
+                                }
+                
+            
+        
+        
+    
+    
+    
+    
+
